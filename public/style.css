@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(233, 176, 31), rgb(236, 236, 245), rgb(18, 222, 59));
+    height: 80vh;
+
+}
+
+section.chat_section {
+    max-width: 90%;
+    width: 720px;
+    box-shadow: 0 10px 15px -3px rgba(0, -0, -0, -0, 1), 0 4px 6px -2px rgba(0, -0, -0, -0.05);
+    background-image: linear-gradient(rgb(80, 177, 219), rgb(245, 245, 247), rgb(165, 18, 238));
+    height: 520px;
+}
+
+.brand {
+    padding: 10px;
+    background: #f1c6c6;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(250, 247, 251), rgb(185, 151, 37), rgb(123, 127, 236));
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.brand>img {
+    width: 9%;
+}
+
+.brand>h1 {
+    text-transform: uppercase;
+    font: 20px;
+    columns: #452ada;
+    margin-left: 10px;
+
+}
+
+.message_area {
+    height: 426px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+
+}
+
+.incoming {
+    background: #000000;
+    color: white;
+border: 2px solid white;
+border-radius: 17px;
+Height: 48px;
+padding: 13px 31px;
+
+}
+
+.outgoing {
+    background-color: #fafafa;
+    color: #000000;
+    margin-left: auto;
+    Height: 48px;
+    padding: 11px 35px;
+    border: 2px solid;
+    border-radius: 17px;
+
+}
+
+.message>h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+
+}
+
+.text {
+    display: flex;
+    margin: 30px 0px;
+    border: 2px solid;
+    border-radius: 9px;
+}
+
+#textarea {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    background-image: linear-gradient(rgb(186, 241, 218), rgb(240, 185, 185), rgb(191, 185, 186));
+
+
+}
+
+.btn {
+    display: flex;
+    padding: 7px 18px;
+}
